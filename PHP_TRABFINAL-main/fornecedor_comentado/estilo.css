@@ -1,0 +1,72 @@
+/* estilo.css */
+
+/* Definições de estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo da página */
+}
+
+/* Estilo para o contêiner principal da página */
+.container {
+    width: 50%; /* Define a largura do contêiner como 50% da largura da janela do navegador */
+    margin: 0 auto; /* Centraliza o contêiner na página horizontalmente */
+}
+
+/* Estilo para formulários */
+form {
+    margin-top: 20px; /* Define uma margem superior de 20 pixels para os formulários */
+}
+
+/* Estilo para campos de entrada de texto e botões de envio dentro de formulários */
+form input[type="text"],
+form input[type="submit"] {
+    width: 100%; /* Define a largura dos campos de entrada de texto e botões de envio como 100% */
+    padding: 10px; /* Adiciona 10 pixels de preenchimento interno aos campos de entrada e botões */
+    margin-bottom: 10px; /* Adiciona uma margem inferior de 10 pixels aos campos de entrada e botões */
+}
+
+/* Estilo específico para botões de envio dentro de formulários */
+form input[type="submit"] {
+    background-color: #007bff; /* Define a cor de fundo do botão de envio */
+    color: #fff; /* Define a cor do texto do botão de envio como branco */
+    cursor: pointer; /* Altera o cursor do mouse para um ponteiro ao passar sobre o botão */
+}
+
+/* Estilo de hover para botões de envio dentro de formulários */
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Altera a cor de fundo do botão de envio ao passar o mouse sobre ele */
+}
+
+/* Estilo para a lista de fornecedores */
+.lista-fornecedores {
+    margin-top: 30px; /* Define uma margem superior de 30 pixels para a lista de fornecedores */
+    border: 1px solid #ccc; /* Adiciona uma borda sólida de 1 pixel à lista de fornecedores */
+    border-radius: 5px; /* Arredonda as bordas da lista de fornecedores */
+    padding: 10px; /* Adiciona 10 pixels de preenchimento interno à lista de fornecedores */
+}
+
+/* Estilo para o título da lista de fornecedores */
+.lista-fornecedores h2 {
+    margin-top: 0; /* Remove a margem superior do título da lista de fornecedores */
+}
+
+/* Estilo para a lista de itens dentro da lista de fornecedores */
+.lista-fornecedores ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão da lista de itens */
+    padding: 0; /* Remove o preenchimento da lista de itens */
+}
+
+/* Estilo para cada item dentro da lista de fornecedores */
+.lista-fornecedores li {
+    border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior sólida de 1 pixel a cada item */
+    padding: 10px 0; /* Adiciona 10 pixels de preenchimento vertical e 0 pixels de preenchimento horizontal a cada item */
+}
+
+/* Estilo para o último item dentro da lista de fornecedores */
+.lista-fornecedores li:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item */
+}
+
+/* Estilo para elementos de texto em negrito dentro dos itens da lista de fornecedores */
+.lista-fornecedores li span {
+    font-weight: bold; /* Define o peso da fonte como negrito para elementos de texto dentro dos itens da lista */
+}

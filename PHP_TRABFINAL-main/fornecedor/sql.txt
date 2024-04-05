@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS meu_banco;
+
+USE meu_banco;
+
+CREATE TABLE IF NOT EXISTS fornecedores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fornecedor VARCHAR(100) NOT NULL,
+    celular VARCHAR(20) NOT NULL
+);
